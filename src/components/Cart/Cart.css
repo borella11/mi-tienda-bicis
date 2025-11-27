@@ -1,0 +1,19 @@
+.item-list-container h2 {
+  width: 100%;
+  text-align: center;
+  margin: 2rem;
+}
+
+.btn-container {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.total-pagar {
+  width: 100%;
+  text-align: center;
+}

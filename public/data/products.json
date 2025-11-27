@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "name": "Mountain Bike Xtreme",
+    "price": 450000,
+    "category": "Montaña",
+    "description": "Bicicleta todo terreno con suspensión delantera y frenos de disco.",
+    "imageUrl": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": "2",
+    "name": "Ruta Speedster",
+    "price": 850000,
+    "category": "Ruta",
+    "description": "Diseñada para velocidad, cuadro de carbono ultraligero.",
+    "imageUrl": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": "3",
+    "name": "Urbana CityFlow",
+    "category": "Urbana",
+    "price": 320000,
+    "description": "Ideal para la ciudad, cómoda y con estilo vintage.",
+    "imageUrl": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=400&q=80"
+  },
+  {
+    "id": "4",
+    "name": "Mountain Bike Pro",
+    "price": 650000,
+    "category": "Montaña",
+    "description": "Suspensión doble y cambios Shimano de alta gama.",
+    "imageUrl": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&w=400&q=80"
+  }
+]
