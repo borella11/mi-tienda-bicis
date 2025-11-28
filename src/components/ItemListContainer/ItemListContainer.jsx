@@ -11,11 +11,9 @@ export const ItemListContainer = ({ titulo }) => {
   const { category } = useParams();
 
   useEffect(() => {
-    // Llamamos a la funcion asincrona para traer los productos
     getProducts()
       .then((data) => {
         if (category) {
-          // Si hay categoria, filtramos
           setProducts(data.filter((prod) => prod.category === category));
         } else {
           setProducts(data);

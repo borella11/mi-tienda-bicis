@@ -12,7 +12,6 @@ export const ItemDetailContainer = () => {
   const { id } = useParams();
 
   useEffect(() => {
-    // Buscamos el producto por el ID de la URL
     getProductById(id)
       .then((data) => {
         setDetail(data);

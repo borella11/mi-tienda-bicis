@@ -9,15 +9,7 @@ const Form = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-
-    //Forma de actualizar un estado de forma directa:
     setUser({ ...user, [name]: value });
-
-    /*Forma de actualizar un estado con el valor "previo" a mi actualizacion: por convencion, se le llama "prev" o "prevEstado"
-    Esta forma utiliza una funcion con un parametro que siempre traera el ultimo valor del estado
-    antes de actualizar con lo nuevo*/
-
-    //setUser((prev) => ({ ...prev, [name]: value }));
   };
 
   const handleSubmit = (e) => {
@@ -25,7 +17,7 @@ const Form = () => {
 
     alert(`${user.name} ingreso su correo y contraseña`);
 
-    //reseteamos los campos que tomaran los values de los inputs
+    alert(`${user.name} ingreso su correo y contraseña`);
     setUser({ name: "", email: "", pass: "" });
   };
 
@@ -33,7 +25,7 @@ const Form = () => {
     <form onSubmit={handleSubmit}>
       <input
         type="text"
-        name="name" //necesitamos el atributo name
+        name="name"
         value={user.name}
         onChange={handleChange}
         placeholder="Ingresa tu nombre"
@@ -41,7 +33,7 @@ const Form = () => {
       />
       <input
         type="email"
-        name="email" //necesitamos el atributo name
+        name="email"
         value={user.email}
         onChange={handleChange}
         placeholder="Ingresa tu email"
@@ -49,7 +41,7 @@ const Form = () => {
       />
       <input
         type="password"
-        name="pass" //necesitamos el atributo name
+        name="pass"
         value={user.pass}
         onChange={handleChange}
         placeholder="Ingresa contraseña"
